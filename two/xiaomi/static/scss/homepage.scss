@@ -1,0 +1,220 @@
+header{
+        width: 100%;
+        height: 40px;
+        background:#333;
+        div{
+            width: 1226px;
+            height: 40px;
+            background:#333;
+            margin:0 auto;
+            ul{
+                width: auto;
+                height: 100%;
+                float: left;
+            }
+            li,span{
+                float: left;
+                line-height: 40px;
+                color:#423b36;
+                a{
+                    color:#b0b0b0;
+                }
+                a:hover{
+                    color: #ffffff;
+                }
+            }
+            span{
+                margin:0px 8px;
+            }
+        }
+        .header_right{
+            width: 120px;
+            height: 40px;
+            background: #424242;
+            float: right;
+            color: #b0b0b0;
+            line-height: 40px;
+            text-align: center;
+            position: relative;
+        }
+        .header_right:hover{
+            background:#ffffff;
+        }
+        .header_right_hover{
+            width: 316px;
+            height: 83px;
+            background:#ffffff;
+            position: absolute;
+            top:40px;
+            right:0;
+            outline: 1px solid red;
+            display: none;   
+        }
+        .header_right:hover .header_right_hover{
+            transition: all 3s;
+            display: block;
+        }
+        .header_center{
+            width: 142px;
+            height: 40px;
+            float: right;
+            margin-right:10px;
+        }
+    }
+nav{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top:0;
+    left:0;
+    .nav_auto{
+        width: 1226px;
+        height: 100%;
+        margin:0 auto;
+        .nav_log{
+            width: 62px;
+            height: 55px;
+            margin-top:22px;
+            float: left;
+        }
+        .nav_center{
+            width: 850px;
+            height: 100%;
+            float: left; 
+            ul{
+                width: 820px;
+                height: 88px;
+                padding-top:12px;
+                padding-left:30px;
+                li:nth-of-type(1){
+                    width: 142px;
+                    height: 88px;
+                }
+                li{
+                    float: left;
+                    height: 88px;
+                    text-align: center;
+                    line-height: 88px;
+                    font-size: 16px;
+                    padding:0px 15px 0px 5px;
+                    cursor: pointer;
+                }
+                li:hover{
+                    color:orange;
+                }
+            }
+        }
+        .nav_right{
+            width: 296px;
+            height: 50px;
+            float: right;
+            margin-top:25px;
+            .inpl{
+                width: 223px;
+                height: 48px;
+                border:1px solid #e0e0e0;
+                float: left;
+                position: relative;
+                input{
+                    width: 203px;
+                    height: 100%;
+                    border:0;
+                    outline: none;
+                    padding:0px 10px;
+                }
+                .inpl_hove{
+                    width: 223px;
+                    height: auto;
+                    
+                     border:1px solid orange;
+                     border-top:none;
+                    position: absolute;
+                    left:0;
+                    top:48px;
+                    z-index: 30;
+                    display: none;
+                    ul{
+                        width: 100%;
+                        height: 100%;
+                        li{
+                            width: 100%;
+                            height: 30px;
+                            line-height:30px;
+                            font-size:12px;
+                            a{
+                                display: inline-block;
+                                float: left;
+                                color:#000000;
+                                margin-left:8px;
+                            }
+                            span{
+                                display: inline-block;
+                                float: right;
+                                color:#E0E0E0;   
+                                margin-right: 8px;                     
+                                }
+                        }
+                        li:hover{
+                            background-color:#e0e0e0;
+                        }
+                    }
+                }
+            }
+            .inpr{
+                width: 48px;
+                height: 48px;
+                background:#ffffff;
+                border:1px solid #e0e0e0;
+                float: left;
+                i{
+                    display: block;
+                    width: 25px;
+                    height: 25px;
+                    margin:0 auto;
+                    margin-top:10px;
+                    background-image: url(../src/assets/wxb搜索推广.png);
+                    background-size:cover;
+               }
+            }
+            .inpr:hover{
+                background: orange;
+            }
+        }
+        .nav_center_hover{
+                width: 100%;
+                height: 0px;
+                transition: all 0.3s ease-in; 
+                background:lime;
+                position: absolute;
+                top:100px;
+                left:0;
+                z-index: 50;
+                .nav_center_hover_center{
+                    width: 1226px;
+                    height:0;
+                    margin:0 auto;
+                    background:orange;
+                    position: relative;
+                    transition: all 0.3s ease-in;
+                     overflow: hidden;
+                    .nav_center_hover_centerone{
+                        position: absolute;
+                        top:0;
+                        left:0;
+                        text-align: center;
+                    }
+                }
+            }
+    }
+}  
+.Carousel{
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+} 
+.Introduce{
+    width: 1226px;
+    height: 170px;
+    margin:0 auto;
+    margin-top:14px;
+}

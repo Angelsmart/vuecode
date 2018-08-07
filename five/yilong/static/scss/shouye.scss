@@ -1,0 +1,113 @@
+ .carou{
+        width: 100%;
+        height: 380px;
+        margin:0 auto;
+        position: relative;
+        .swiper-container{
+            width: 100%;
+            height: 380px;
+            margin:0 auto;
+            position:absolute;
+            .T_bannerone{
+                background: url('../../assets/images151695645796334.jpg') no-repeat center;
+            }
+            .T_bannertwo{
+                background: url('../../assets/images151667462384407.jpg') no-repeat center;
+            }
+            .T_bannertree{
+                background: url('../../assets/images149371011284238.jpg') no-repeat center;
+            }
+            .T_bannerfour{
+                background: url('../../assets/images149370993339413.jpg') no-repeat center;
+            }
+        }
+        .swiper_hover{
+            margin:0 auto;
+            width: 1200px;
+            height: 300px;
+            position:relative;
+            top:20px;
+            z-index: 10;
+            .swiper_hover_h{
+                width: 600px;
+                height: 300px;
+                background:rgba(0,0,0,0.3);
+            }
+        }
+    }
+    .personality{
+        width: 1200px;
+        height: 32px;
+        margin:0 auto;
+        margin-top:20px;
+        .personality_top{
+            width: 215px;
+            height: 28px;
+            border:2px solid #cccccc;
+            border-radius: 20px;
+            text-align: center;
+            line-height: 28px;
+            font-size: 14px;
+            color:#555555;
+            a{
+                color:#3377EE;
+            }
+        }
+    }
+    .Telescopic{
+        width: 1200px;
+        height: 260px;
+        margin:20px auto;
+    }
+    .objective{
+        width: 1200px;
+        height: 566px;
+        margin:0 auto;
+    }
+    .super{
+        width: 1200px;
+        height: 372px;
+        margin:0 auto; 
+        margin-top:20px;
+    }
+    .Tourism{
+        width: 1200px;
+        height: 280px;
+        margin:0 auto; 
+        margin-top:20px;
+//      background-color:blue;
+    }
+    .servie{
+        width: 100%;
+        height:40px;
+        background-color:#7C8FA2;
+        div{
+             width: 1000px;
+             height: 40px;
+             margin:0 auto;
+            ul{
+                width: 1000px;
+                height: 40px;
+                margin:0 auto;
+                background-color:#7C8FA2;
+                display: flex;
+                justify-content: space-between;
+                li{
+                    width: 166px;
+                    height: 40px;
+                    text-align: center;
+                    line-height: 40px;
+                    font-size: 12px;
+                    a{
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }  
+    }
+    .servieview{
+        width: 100%;
+        height: auto;
+        background-color:lime;
+        text-align: center;
+    }

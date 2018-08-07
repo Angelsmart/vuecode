@@ -1,0 +1,48 @@
+.hh{
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid red;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.min{
+	width: 1200px;
+	height: 60px;
+	margin:0 auto;
+}
+.hleft{
+	width: 243px;
+	height: 60px;
+	float: left;
+	margin-top: 10px;
+}
+.hright{
+	width: 600px;
+	height: 60px;
+	float: right;
+	display: flex;
+}
+.hright	li{
+		display: list-item;
+        border-line:outline;
+        border-top:3px solid #fff;
+        margin:0 10px;
+    }
+.hright	li:nth-of-type(1){
+	border-top:3px solid #e95456;
+}
+.hright	li:hover{
+	border-top:3px solid #e95456;
+}   
+.hright	a{
+	display: block;
+    line-height: 57px;
+    padding: 0 12px;
+    font-size: 14px;
+    color: #333;
+	}
+.hright	a:hover{
+	color: pink;
+}

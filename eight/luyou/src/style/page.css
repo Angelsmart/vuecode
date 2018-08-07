@@ -1,0 +1,32 @@
+    .fast  {
+				width: 100%;
+				height: 177px;
+				display: flex;
+				margin-top: 8px;
+			}	
+	.fast li{
+			  width: 329px;
+			  height: 167px;
+			  flex:1;
+			  position: relative;
+	        }
+	.fast li img{
+	          	height: 167px;
+	          	outline: 1px solid #eee;
+	          }
+	.fast li .fa{
+	          	width: 329px;
+	          	height: 167px;
+	          	background-color: black;
+	          	opacity: 0.3;
+	          	position: absolute;
+	            left: 0;
+	          	top:0;
+	          	display: none;
+	          }
+			
+	.fast li:hover .fa{
+	          	 display: block;
+	          }
+
+
